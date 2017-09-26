@@ -1,0 +1,25 @@
+/build/
+/esdoc/
+/logs/
+/node_modules/
+/coverage/
+/.tmp/
+npm-debug.log
+reports
+src/external/build
+report-results.html
+.idea
+.DS_Store
+.nyc_output
+
+# Sublime Text Files
+*.sublime-project
+*.sublime-workspace
+
+# Yarn Files
+yarn-error.log
+
+# Redis Dump Files
+dump.rdb
+
+*.sublime*
