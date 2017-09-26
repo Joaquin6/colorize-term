@@ -9,12 +9,18 @@
     "yarn": ">=0.23.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && nyc ava",
+    "bench": "matcha benchmark.js",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Joaquin6/colorize-term.git"
   },
+  "files": [
+    "index.js",
+    "templates.js"
+  ],
   "keywords": [
     "colors",
     "terminal",
@@ -27,5 +33,21 @@
   "bugs": {
     "url": "https://github.com/Joaquin6/colorize-term/issues"
   },
-  "homepage": "https://github.com/Joaquin6/colorize-term#readme"
+  "homepage": "https://github.com/Joaquin6/colorize-term#readme",
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "coveralls": "^2.13.1",
+    "execa": "^0.8.0",
+    "import-fresh": "^2.0.0",
+    "matcha": "^0.7.0",
+    "nyc": "^11.2.1",
+    "resolve-from": "^4.0.0",
+    "xo": "^0.18.2"
+  }
 }
