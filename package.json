@@ -1,0 +1,31 @@
+{
+  "name": "colorize-term",
+  "version": "1.0.0",
+  "description": "Smarter terminal color handler for mac and windows",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.10.10",
+    "yarn": ">=0.23.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaquin6/colorize-term.git"
+  },
+  "keywords": [
+    "colors",
+    "terminal",
+    "mac",
+    "windows",
+    "colorize-term"
+  ],
+  "author": "Joaquin Briceno <joaquinbriceno1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joaquin6/colorize-term/issues"
+  },
+  "homepage": "https://github.com/Joaquin6/colorize-term#readme"
+}
